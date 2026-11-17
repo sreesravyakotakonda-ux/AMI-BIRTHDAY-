@@ -1,0 +1,1494 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happiest Birthday AMI✨💜</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts: Bold Flowing Calligraphy (Great Vibes, Alex Brush), Editorial Serif (Cinzel Decorative, Cormorant Garamond), & Crisp Quicksand -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alex+Brush&family=Cinzel+Decorative:wght@700;900&family=Cormorant+Garamond:ital,wght@0,600;0,700;1,600&family=Great+Vibes&family=Quicksand:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['"Quicksand"', 'sans-serif'],
+                        editorial: ['"Cormorant Garamond"', 'serif'],
+                        royal: ['"Cinzel Decorative"', 'serif'],
+                        calligraphy: ['"Great Vibes"', '"Alex Brush"', 'cursive'],
+                        brush: ['"Alex Brush"', '"Great Vibes"', 'cursive'],
+                    },
+                    colors: {
+                        lavenderSoft: '#F3E8FF',
+                        lavenderDeep: '#6B46C1',
+                        blushDream: '#FBB6CE',
+                        starGold: '#D97706',
+                        creamPearl: '#FFFDFB',
+                    }
+                }
+            }
+        }
+    </script>
+
+    <style>
+        /* "Borahae" Lavender & Pink Dream Background */
+        body {
+            background: radial-gradient(circle at 15% 15%, #FCE7F3 0%, transparent 45%),
+                        radial-gradient(circle at 85% 25%, #EDE9FE 0%, transparent 50%),
+                        radial-gradient(circle at 50% 85%, #F3E8FF 0%, #FDF2F8 60%, #FFFDFB 100%);
+            background-attachment: fixed;
+            overflow-x: hidden;
+        }
+
+        /* Bold Flowing Calligraphy Styling with Lavender & Gold Glow */
+        .calligraphy-bold {
+            font-family: 'Great Vibes', 'Alex Brush', cursive;
+            font-weight: 700;
+            -webkit-text-stroke: 0.45px currentColor;
+            text-shadow: 0 2px 14px rgba(168, 85, 247, 0.25), 0 1px 2px rgba(217, 119, 6, 0.2);
+            letter-spacing: 0.02em;
+        }
+
+        .calligraphy-hero {
+            font-family: 'Great Vibes', 'Alex Brush', cursive;
+            font-weight: 700;
+            -webkit-text-stroke: 0.8px rgba(107, 70, 193, 0.45);
+            filter: drop-shadow(0 4px 16px rgba(192, 132, 252, 0.35));
+        }
+
+        /* Ornate Double Filigree Frame Styling */
+        .ornate-box {
+            position: relative;
+            background: rgba(255, 253, 255, 0.86);
+            backdrop-filter: blur(12px);
+            border: 2px solid #D8B4FE;
+            box-shadow: 
+                0 0 0 4px rgba(255, 255, 255, 0.9),
+                0 0 0 6px #F59E0B66,
+                0 20px 45px -15px rgba(107, 70, 193, 0.22);
+        }
+
+        .ornate-box::before {
+            content: "";
+            position: absolute;
+            inset: 8px;
+            border: 1.5px dashed rgba(217, 119, 6, 0.45);
+            border-radius: inherit;
+            pointer-events: none;
+            z-index: 1;
+        }
+
+        /* Ornate Vintage-Meets-Lavender Photo Frame */
+        .ornate-photo-frame {
+            position: relative;
+            background: linear-gradient(145deg, #FFFFFF 0%, #FAF5FF 60%, #FDF2F8 100%);
+            border: 2px solid #C084FC;
+            box-shadow:
+                0 0 0 3px #FFFDFB,
+                0 0 0 5px rgba(245, 158, 11, 0.55),
+                0 14px 30px -10px rgba(107, 70, 193, 0.25);
+            transition: transform 0.4s cubic-bezier(0.34, 1.56, 0.64, 1), box-shadow 0.4s ease;
+        }
+
+        .ornate-photo-frame:hover {
+            transform: translateY(-6px) scale(1.015);
+            box-shadow:
+                0 0 0 3px #FFFDFB,
+                0 0 0 6px rgba(217, 119, 6, 0.75),
+                0 22px 40px -10px rgba(147, 51, 234, 0.35);
+        }
+
+        /* Shimmer effect on photo hover */
+        @keyframes shimmerSweep {
+            0% { transform: translateX(-120%) skewX(-20deg); }
+            100% { transform: translateX(220%) skewX(-20deg); }
+        }
+
+        .photo-shimmer::after {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 50%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.45), transparent);
+            transform: translateX(-120%) skewX(-20deg);
+            pointer-events: none;
+        }
+
+        .ornate-photo-frame:hover .photo-shimmer::after {
+            animation: shimmerSweep 0.95s ease-in-out;
+        }
+
+        /* Floating Celestial Moons, Hearts & Sparkles */
+        @keyframes floatCelestial {
+            0% {
+                transform: translateY(110vh) rotate(-8deg) scale(0.9);
+                opacity: 0;
+            }
+            12% {
+                opacity: 0.85;
+            }
+            50% {
+                transform: translateY(50vh) rotate(8deg) scale(1.05);
+            }
+            88% {
+                opacity: 0.85;
+            }
+            100% {
+                transform: translateY(-15vh) rotate(-8deg) scale(0.95);
+                opacity: 0;
+            }
+        }
+
+        .celestial-floater {
+            position: fixed;
+            bottom: -80px;
+            z-index: 1;
+            pointer-events: none;
+            animation: floatCelestial linear infinite;
+            filter: drop-shadow(0 2px 6px rgba(168, 85, 247, 0.25));
+        }
+
+        /* Candle Flame Flicker */
+        @keyframes flicker {
+            0%, 100% { transform: scale(1) rotate(-2deg); opacity: 1; }
+            25% { transform: scale(1.06, 0.96) rotate(2deg); opacity: 0.95; }
+            50% { transform: scale(0.95, 1.05) rotate(-1deg); opacity: 1; }
+            75% { transform: scale(1.04, 0.98) rotate(3deg); opacity: 0.92; }
+        }
+
+        .candle-flame {
+            transform-origin: bottom center;
+            animation: flicker 0.6s infinite alternate ease-in-out;
+            transition: opacity 0.3s ease, transform 0.3s ease;
+        }
+
+        .candle-flame.blown-out {
+            opacity: 0;
+            transform: scale(0);
+            animation: none;
+        }
+
+        /* Smoke Rising Animation */
+        @keyframes smokeRise {
+            0% { transform: translateY(0) scale(0.6); opacity: 0.85; }
+            50% { transform: translateY(-22px) translateX(6px) scale(1.2); opacity: 0.45; }
+            100% { transform: translateY(-45px) translateX(-4px) scale(1.6); opacity: 0; }
+        }
+
+        .smoke-puff {
+            opacity: 0;
+            pointer-events: none;
+        }
+
+        .smoke-puff.active {
+            animation: smokeRise 1.6s ease-out forwards;
+        }
+
+        /* 3D Flip Card Styling */
+        .perspective-1000 {
+            perspective: 1000px;
+        }
+
+        .flip-card-inner {
+            position: relative;
+            width: 100%;
+            height: 100%;
+            transition: transform 0.75s cubic-bezier(0.4, 0.2, 0.2, 1);
+            transform-style: preserve-3d;
+        }
+
+        .flip-card.flipped .flip-card-inner {
+            transform: rotateY(180deg);
+        }
+
+        .flip-card-front, .flip-card-back {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
+            border-radius: 1.5rem;
+        }
+
+        .flip-card-back {
+            transform: rotateY(180deg);
+        }
+
+        /* Envelope Animation */
+        .envelope-flap {
+            transform-origin: top center;
+            transition: transform 0.65s cubic-bezier(0.4, 0, 0.2, 1), z-index 0.2s;
+        }
+
+        .envelope-wrapper.open .envelope-flap {
+            transform: rotateX(180deg);
+            z-index: 5;
+        }
+
+        .letter-paper {
+            transition: transform 0.75s cubic-bezier(0.34, 1.56, 0.64, 1) 0.25s;
+        }
+
+        .envelope-wrapper.open .letter-paper {
+            transform: translateY(-95px);
+        }
+
+        /* Vinyl Spin for Music Player */
+        @keyframes spinSlow {
+            from { transform: rotate(0deg); }
+            to { transform: rotate(360deg); }
+        }
+
+        .vinyl-spinning {
+            animation: spinSlow 6s linear infinite;
+        }
+    </style>
+</head>
+<body class="text-stone-800 antialiased selection:bg-purple-200 selection:text-purple-950 relative min-h-screen">
+
+    <!-- Full-Screen Confetti Canvas -->
+    <canvas id="confetti-canvas" class="fixed inset-0 pointer-events-none z-50 w-full h-full"></canvas>
+
+    <!-- Floating Moons, Purple/Pink Hearts & Sparkles Container -->
+    <div id="celestial-container" class="fixed inset-0 pointer-events-none z-0 overflow-hidden"></div>
+
+    <!-- Top Ornate Sticky Header -->
+    <header class="sticky top-0 z-40 backdrop-blur-md bg-white/80 border-b-2 border-purple-200/80 shadow-sm">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 py-2.5 flex flex-wrap items-center justify-between gap-3">
+            <div class="flex items-center gap-2.5">
+                <span class="text-2xl">🌙</span>
+                <span class="calligraphy-bold text-2xl sm:text-3xl text-purple-900">Borahae Birthday Edition</span>
+                <span class="hidden sm:inline-block text-xs px-2.5 py-0.5 rounded-full bg-purple-100 text-purple-800 border border-purple-300 font-semibold">🐨💜🐿️</span>
+            </div>
+
+            <div class="flex items-center gap-2 sm:gap-3">
+                <button onclick="toggleFriendsMusicBox()" id="top-music-btn" class="px-3.5 py-1.5 rounded-full bg-purple-100 hover:bg-purple-200 text-purple-900 border border-purple-300 font-semibold text-xs sm:text-sm transition flex items-center gap-1.5 shadow-sm active:scale-95">
+                    <span id="top-music-icon">🎵</span>
+                    <span id="top-music-label">Play "Friends"</span>
+                </button>
+                <button onclick="triggerConfettiBurst()" class="px-3.5 py-1.5 rounded-full bg-pink-100 hover:bg-pink-200 text-pink-900 border border-pink-300 font-semibold text-xs sm:text-sm transition flex items-center gap-1.5 shadow-sm active:scale-95">
+                    <span>✨</span>
+                    <span>Confetti</span>
+                </button>
+                <button onclick="openCustomizeModal()" class="px-4 py-1.5 rounded-full bg-gradient-to-r from-purple-600 via-fuchsia-500 to-amber-500 hover:opacity-95 text-white font-semibold text-xs sm:text-sm transition flex items-center gap-1.5 shadow-md active:scale-95">
+                    <span>✒️</span>
+                    <span>Edit Wishes</span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content Container -->
+    <main class="relative z-10 max-w-6xl mx-auto px-4 sm:px-6 pt-8 pb-28 space-y-20 sm:space-y-28">
+
+        <!-- 1. ORNATE CALLIGRAPHY HERO SECTION -->
+        <section class="ornate-box rounded-[2rem] p-7 sm:p-12 md:p-14 text-center max-w-4xl mx-auto overflow-hidden">
+            <!-- Ornate SVG Corner Filigree (Top Left, Top Right, Bottom Left, Bottom Right) -->
+            <svg class="w-14 h-14 sm:w-20 sm:h-20 text-amber-500/80 absolute top-2 left-2 pointer-events-none" viewBox="0 0 100 100" fill="none">
+                <path d="M8 92 C8 40, 40 8, 92 8 M18 75 C18 42, 42 18, 75 18 M12 12 L28 28" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+                <circle cx="14" cy="14" r="3.5" fill="#A855F7"/>
+                <circle cx="48" cy="12" r="2" fill="#F59E0B"/>
+                <circle cx="12" cy="48" r="2" fill="#F59E0B"/>
+            </svg>
+            <svg class="w-14 h-14 sm:w-20 sm:h-20 text-amber-500/80 absolute top-2 right-2 pointer-events-none transform scale-x-[-1]" viewBox="0 0 100 100" fill="none">
+                <path d="M8 92 C8 40, 40 8, 92 8 M18 75 C18 42, 42 18, 75 18 M12 12 L28 28" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+                <circle cx="14" cy="14" r="3.5" fill="#A855F7"/>
+                <circle cx="48" cy="12" r="2" fill="#F59E0B"/>
+                <circle cx="12" cy="48" r="2" fill="#F59E0B"/>
+            </svg>
+            <svg class="w-14 h-14 sm:w-20 sm:h-20 text-amber-500/80 absolute bottom-2 left-2 pointer-events-none transform scale-y-[-1]" viewBox="0 0 100 100" fill="none">
+                <path d="M8 92 C8 40, 40 8, 92 8 M18 75 C18 42, 42 18, 75 18 M12 12 L28 28" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+                <circle cx="14" cy="14" r="3.5" fill="#EC4899"/>
+            </svg>
+            <svg class="w-14 h-14 sm:w-20 sm:h-20 text-amber-500/80 absolute bottom-2 right-2 pointer-events-none transform scale-[-1]" viewBox="0 0 100 100" fill="none">
+                <path d="M8 92 C8 40, 40 8, 92 8 M18 75 C18 42, 42 18, 75 18 M12 12 L28 28" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+                <circle cx="14" cy="14" r="3.5" fill="#EC4899"/>
+            </svg>
+
+            <div class="relative z-10 space-y-5">
+                <div class="inline-flex items-center gap-2 px-5 py-1.5 rounded-full bg-gradient-to-r from-purple-100 via-pink-100 to-amber-50 border border-purple-300 shadow-sm text-purple-900 text-xs sm:text-sm font-bold tracking-widest uppercase">
+                    <span>🌙</span>
+                    <span>To My Moon &amp; Soultwin</span>
+                    <span>🧿</span>
+                </div>
+
+                <div class="space-y-1">
+                    <p class="font-royal text-sm sm:text-lg tracking-[0.22em] text-amber-700 uppercase font-bold">
+                        ✦ Celebrating You Today &amp; Always ✦
+                    </p>
+                    <h1 class="calligraphy-hero text-5xl sm:text-7xl md:text-8xl text-transparent bg-clip-text bg-gradient-to-r from-purple-800 via-fuchsia-600 to-amber-600 leading-tight py-2">
+                        Happiest Birthday, <br class="sm:hidden" />
+                        <span id="display-friend-name" onclick="openCustomizeModal()" title="Click to edit" class="cursor-pointer">AMI✨💜</span>
+                    </h1>
+                </div>
+
+                <!-- Decorative Gold & Lavender Filigree Divider -->
+                <div class="flex items-center justify-center gap-3 py-1">
+                    <div class="h-[1.5px] w-16 sm:w-28 bg-gradient-to-r from-transparent via-amber-400 to-purple-500"></div>
+                    <span class="text-purple-600 text-lg">💜 ✦ 🩷</span>
+                    <div class="h-[1.5px] w-16 sm:w-28 bg-gradient-to-l from-transparent via-amber-400 to-purple-500"></div>
+                </div>
+
+                <p id="display-hero-subtitle" class="max-w-2xl mx-auto font-editorial text-xl sm:text-2xl text-stone-700 italic font-semibold leading-relaxed">
+                    "My moon 🌙, my clumsy joonie 💃💜, and my forever soultwin—thank god He sent you here on this day for me. May this friendship last forever 🧿💜🩷"
+                </p>
+
+                <div class="pt-2 flex flex-wrap items-center justify-center gap-3">
+                    <span class="px-4 py-1.5 rounded-full bg-purple-50 border border-purple-200 text-purple-800 text-xs sm:text-sm font-semibold">
+                        From: <span id="hero-sender-badge" class="calligraphy-bold text-xl text-fuchsia-700 ml-1">Sree💃🩷</span>
+                    </span>
+                </div>
+            </div>
+        </section>
+
+        <!-- 2. BTS - "FRIENDS" (친구) SOULTWIN MUSIC CARD -->
+        <section class="max-w-3xl mx-auto">
+            <div class="ornate-box rounded-3xl p-5 sm:p-7 flex flex-col sm:flex-row items-center justify-between gap-5">
+                <div class="flex items-center gap-4 z-10">
+                    <!-- Spinning Lavender & Gold Vinyl Record -->
+                    <div id="vinyl-disc" class="w-16 h-16 sm:w-20 sm:h-20 rounded-full bg-gradient-to-tr from-purple-900 via-purple-700 to-fuchsia-500 border-4 border-amber-300 shadow-lg flex items-center justify-center shrink-0 relative">
+                        <div class="w-6 h-6 rounded-full bg-pink-100 border-2 border-amber-400 flex items-center justify-center text-[10px]">💜</div>
+                    </div>
+                    <div class="text-left space-y-1">
+                        <div class="inline-flex items-center gap-1.5 text-[11px] font-bold uppercase tracking-widest text-amber-700 bg-amber-50 px-2.5 py-0.5 rounded-full border border-amber-200">
+                            <span>🐨💜🐿️</span>
+                            <span>Soultwin Anthem</span>
+                        </div>
+                        <h3 class="font-editorial text-2xl sm:text-3xl font-bold text-purple-950">
+                            BTS — "Friends" <span class="text-base font-normal text-purple-700">(친구)</span>
+                        </h3>
+                        <p class="text-xs sm:text-sm text-stone-600 italic">
+                            "You are my soulmate... Stay by my side forever 🌙💜"
+                        </p>
+                    </div>
+                </div>
+
+                <div class="flex flex-col sm:items-end gap-2 z-10 w-full sm:w-auto">
+                    <button onclick="toggleFriendsMusicBox()" id="card-music-btn" class="w-full sm:w-auto px-5 py-2.5 rounded-full bg-gradient-to-r from-purple-600 to-pink-500 hover:from-purple-700 hover:to-pink-600 text-white font-semibold text-sm shadow-md transition flex items-center justify-center gap-2 active:scale-95">
+                        <span id="card-music-icon">▶️</span>
+                        <span id="card-music-text">Play Music Box Melody</span>
+                    </button>
+                    <a href="https://www.youtube.com/results?search_query=BTS+Friends+audio" target="_blank" rel="noopener noreferrer" class="text-center sm:text-right text-xs font-semibold text-purple-700 hover:text-fuchsia-600 underline">
+                        Open Original Track on YouTube ↗
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- 3. INTERACTIVE "BLOW OUT THE CANDLES" BORAHAE CAKE SECTION -->
+        <section id="cake-section" class="ornate-box rounded-[2rem] p-6 sm:p-10 text-center max-w-3xl mx-auto">
+            <div class="relative z-10 space-y-2 mb-5">
+                <span class="text-xs font-bold uppercase tracking-[0.2em] text-amber-700">✦ Make a Birthday Wish ✦</span>
+                <h2 class="calligraphy-bold text-4xl sm:text-6xl text-purple-900">Blow Out Your Candles, Ami!</h2>
+                <p id="cake-instruction" class="text-sm sm:text-base text-stone-600 max-w-lg mx-auto">
+                    Close your eyes, make your biggest wish, and <strong class="text-purple-700">tap the candles (or the button below)</strong> to blow them out!
+                </p>
+            </div>
+
+            <!-- Interactive SVG Lavender, Blush & Gold Birthday Cake -->
+            <div class="relative z-10 flex flex-col items-center justify-center my-3 select-none">
+                <div onclick="blowOutCandles()" role="button" tabindex="0" aria-label="Birthday cake with lit candles. Click to blow out." onkeydown="if(event.key==='Enter'||event.key===' ') blowOutCandles()" class="cursor-pointer group relative w-full max-w-[340px] mx-auto transition-transform duration-300 hover:scale-[1.02] active:scale-95">
+                    <svg viewBox="0 0 360 300" class="w-full h-auto drop-shadow-md overflow-visible">
+                        <!-- Soft Lavender Glow Shadow -->
+                        <ellipse cx="180" cy="272" rx="145" ry="18" fill="#E9D5FF" opacity="0.7" />
+                        <!-- Gold Cake Stand / Plate -->
+                        <path d="M45 262 Q180 282 315 262 L305 272 Q180 292 55 272 Z" fill="#D97706" />
+                        <ellipse cx="180" cy="262" rx="135" ry="14" fill="#FFFDFB" stroke="#F59E0B" stroke-width="2" />
+
+                        <!-- Bottom Tier (Soft Lavender) -->
+                        <rect x="70" y="190" width="220" height="70" rx="16" fill="#C084FC" />
+                        <rect x="70" y="190" width="220" height="35" rx="12" fill="#A855F7" opacity="0.3" />
+                        <!-- Bottom Tier Pearl Frosting Drips -->
+                        <path d="M70 202 Q88 222 106 202 Q124 226 142 202 Q160 220 180 202 Q200 225 218 202 Q236 220 254 202 Q272 224 290 202 L290 192 Q290 185 280 185 L80 185 Q70 185 70 192 Z" fill="#FAF5FF" />
+                        <!-- Decorative Starry Sprinkles -->
+                        <circle cx="105" cy="236" r="4" fill="#FBBF24" />
+                        <circle cx="145" cy="242" r="4" fill="#F472B6" />
+                        <circle cx="180" cy="234" r="4" fill="#FDE047" />
+                        <circle cx="215" cy="242" r="4" fill="#F472B6" />
+                        <circle cx="255" cy="235" r="4" fill="#FBBF24" />
+
+                        <!-- Top Tier (Blush Pink) -->
+                        <rect x="105" y="125" width="150" height="65" rx="14" fill="#F9A8D4" />
+                        <!-- Top Tier White Frosting -->
+                        <path d="M105 138 Q120 155 135 138 Q150 158 165 138 Q180 154 195 138 Q210 158 225 138 Q240 154 255 138 L255 128 Q255 120 245 120 L115 120 Q105 120 105 128 Z" fill="#FFFFFF" />
+                        <!-- Purple Heart / Gold Accents -->
+                        <circle cx="130" cy="170" r="3.5" fill="#7E22CE" />
+                        <circle cx="180" cy="172" r="4" fill="#F59E0B" />
+                        <circle cx="230" cy="170" r="3.5" fill="#7E22CE" />
+
+                        <!-- CANDLE 1 (Left - Lavender) -->
+                        <g transform="translate(135, 72)">
+                            <rect x="-5" y="12" width="10" height="38" rx="3" fill="#9333EA" />
+                            <path d="M-5 20 L5 26 M-5 30 L5 36 M-5 40 L5 46" stroke="#FFFFFF" stroke-width="2.5" />
+                            <line x1="0" y1="6" x2="0" y2="12" stroke="#4B5563" stroke-width="2" stroke-linecap="round" />
+                            <circle class="smoke-puff" cx="0" cy="4" r="5" fill="#D8B4FE" />
+                            <g class="candle-flame">
+                                <path d="M0 -14 C7 -5, 7 4, 0 7 C-7 4, -7 -5, 0 -14 Z" fill="#F59E0B" />
+                                <path d="M0 -8 C3.5 -3, 3.5 3, 0 5 C-3.5 3, -3.5 -3, 0 -8 Z" fill="#FEF08A" />
+                            </g>
+                        </g>
+
+                        <!-- CANDLE 2 (Center - Gold & Pink) -->
+                        <g transform="translate(180, 64)">
+                            <rect x="-5.5" y="12" width="11" height="46" rx="3" fill="#EC4899" />
+                            <path d="M-5.5 20 L5.5 26 M-5.5 30 L5.5 36 M-5.5 40 L5.5 46" stroke="#FEF08A" stroke-width="2.5" />
+                            <line x1="0" y1="6" x2="0" y2="12" stroke="#4B5563" stroke-width="2" stroke-linecap="round" />
+                            <circle class="smoke-puff" cx="0" cy="4" r="6" fill="#D8B4FE" />
+                            <g class="candle-flame">
+                                <path d="M0 -16 C8 -6, 8 4, 0 8 C-8 4, -8 -6, 0 -16 Z" fill="#F59E0B" />
+                                <path d="M0 -9 C4 -3, 4 3, 0 6 C-4 3, -4 -3, 0 -9 Z" fill="#FEF08A" />
+                            </g>
+                        </g>
+
+                        <!-- CANDLE 3 (Right - Gold) -->
+                        <g transform="translate(225, 72)">
+                            <rect x="-5" y="12" width="10" height="38" rx="3" fill="#F59E0B" />
+                            <path d="M-5 20 L5 26 M-5 30 L5 36 M-5 40 L5 46" stroke="#FFFFFF" stroke-width="2.5" />
+                            <line x1="0" y1="6" x2="0" y2="12" stroke="#4B5563" stroke-width="2" stroke-linecap="round" />
+                            <circle class="smoke-puff" cx="0" cy="4" r="5" fill="#D8B4FE" />
+                            <g class="candle-flame">
+                                <path d="M0 -14 C7 -5, 7 4, 0 7 C-7 4, -7 -5, 0 -14 Z" fill="#F59E0B" />
+                                <path d="M0 -8 C3.5 -3, 3.5 3, 0 5 C-3.5 3, -3.5 -3, 0 -8 Z" fill="#FEF08A" />
+                            </g>
+                        </g>
+                    </svg>
+                </div>
+
+                <!-- Wish Granted Banner -->
+                <div id="wish-granted-banner" class="hidden mt-2 px-6 py-3 rounded-2xl bg-gradient-to-r from-purple-100 via-pink-100 to-amber-100 border-2 border-purple-300 text-purple-950 font-semibold text-sm sm:text-base shadow-sm animate-bounce">
+                    🌟 Wish sent to the moon &amp; stars! May this lasts forever 🧿💜🩷
+                </div>
+
+                <!-- Action Buttons for Cake -->
+                <div class="mt-5 flex flex-wrap items-center justify-center gap-3">
+                    <button id="blow-btn" onclick="blowOutCandles()" class="px-6 py-3 rounded-full bg-gradient-to-r from-purple-600 via-fuchsia-500 to-amber-500 hover:opacity-95 text-white font-semibold shadow-lg transition transform hover:-translate-y-0.5 active:scale-95 flex items-center gap-2">
+                        <span>🌬️</span>
+                        <span>Blow Out Candles</span>
+                    </button>
+                    <button id="relight-btn" onclick="relightCandles()" class="hidden px-5 py-3 rounded-full bg-purple-100 hover:bg-purple-200 text-purple-900 font-semibold transition flex items-center gap-2">
+                        <span>🔥</span>
+                        <span>Relight Candles</span>
+                    </button>
+                    <button onclick="playHappyBirthdayMelody()" class="px-4 py-3 rounded-full bg-white hover:bg-purple-50 text-purple-800 border border-purple-200 font-semibold text-sm transition flex items-center gap-1.5 shadow-sm">
+                        <span>🎶</span>
+                        <span>Play Birthday Tune</span>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- 4. INTERACTIVE WAX-SEALED ENVELOPE & HEARTFELT LETTER -->
+        <section class="max-w-4xl mx-auto">
+            <div class="text-center space-y-2 mb-8">
+                <span class="text-xs font-bold uppercase tracking-[0.2em] text-amber-700">✦ Written From My Heart ✦</span>
+                <h2 class="calligraphy-bold text-4xl sm:text-6xl text-purple-900">A Letter For My Joonie 🫂💜</h2>
+                <p class="text-sm sm:text-base text-stone-600">
+                    Tap the golden wax-sealed envelope to open your birthday letter, or read it in full-screen view.
+                </p>
+            </div>
+
+            <!-- Interactive Envelope Container -->
+            <div class="flex flex-col items-center">
+                <div id="envelope-wrapper" onclick="toggleEnvelope()" role="button" tabindex="0" aria-label="Interactive birthday envelope. Click to open or close." onkeydown="if(event.key==='Enter'||event.key===' ') toggleEnvelope()" class="envelope-wrapper relative w-full max-w-xl h-80 sm:h-96 cursor-pointer select-none mt-14 mb-6 group">
+                    
+                    <!-- Envelope Back Base -->
+                    <div class="absolute inset-0 bg-gradient-to-br from-purple-200 via-pink-200 to-amber-100 rounded-3xl shadow-xl border-2 border-purple-300"></div>
+
+                    <!-- Ornate Letter Paper Inside -->
+                    <div id="letter-paper" class="letter-paper absolute inset-x-4 top-4 bottom-4 bg-creamPearl rounded-2xl p-5 sm:p-7 shadow-lg border-2 border-amber-300/80 z-10 flex flex-col justify-between overflow-y-auto">
+                        <div class="space-y-3">
+                            <div class="flex items-center justify-between border-b border-purple-200 pb-2">
+                                <span class="calligraphy-bold text-3xl sm:text-4xl text-purple-800">
+                                    Dearest <span id="letter-friend-name">AMI✨💜</span>,
+                                </span>
+                                <span class="text-xl">💌</span>
+                            </div>
+                            <p id="display-custom-letter" class="text-stone-700 text-xs sm:text-sm leading-relaxed whitespace-pre-line font-sans font-medium"></p>
+                        </div>
+                        <div class="pt-4 text-right border-t border-purple-100 mt-3">
+                            <p class="text-[11px] uppercase tracking-widest text-amber-700 font-bold">Forever &amp; always yours,</p>
+                            <p id="display-sender-name" class="calligraphy-bold text-3xl sm:text-4xl text-fuchsia-700">Sree💃🩷</p>
+                        </div>
+                    </div>
+
+                    <!-- Envelope Front Pocket -->
+                    <div class="absolute inset-0 z-20 pointer-events-none overflow-hidden rounded-3xl">
+                        <svg viewBox="0 0 400 260" preserveAspectRatio="none" class="w-full h-full">
+                            <polygon points="0,0 200,145 0,260" fill="#F3E8FF" />
+                            <polygon points="400,0 200,145 400,260" fill="#FCE7F3" />
+                            <polygon points="0,260 200,130 400,260" fill="#FAF5FF" stroke="#D8B4FE" stroke-width="1.5" />
+                        </svg>
+                    </div>
+
+                    <!-- Envelope Top Flap -->
+                    <div class="envelope-flap absolute top-0 inset-x-0 h-1/2 z-30 pointer-events-none">
+                        <svg viewBox="0 0 400 130" preserveAspectRatio="none" class="w-full h-full drop-shadow-sm">
+                            <polygon points="0,0 400,0 200,130" fill="#D8B4FE" />
+                        </svg>
+                        <!-- Ornate Wax Seal -->
+                        <div id="wax-seal" class="absolute left-1/2 bottom-0 -translate-x-1/2 translate-y-1/2 w-16 h-16 rounded-full bg-gradient-to-br from-amber-400 via-purple-600 to-pink-500 border-4 border-amber-200 shadow-xl flex items-center justify-center text-white text-2xl transition-transform group-hover:scale-110">
+                            💜
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Envelope Controls -->
+                <div class="flex flex-wrap justify-center items-center gap-3 mt-4">
+                    <button onclick="toggleEnvelope()" id="envelope-toggle-btn" class="px-6 py-2.5 rounded-full bg-gradient-to-r from-purple-600 to-fuchsia-600 hover:opacity-95 text-white font-semibold text-sm shadow-md transition active:scale-95">
+                        ✉️ Open Sealed Envelope
+                    </button>
+                    <button onclick="openReadFullLetterModal()" class="px-5 py-2.5 rounded-full bg-white hover:bg-purple-50 text-purple-900 border-2 border-purple-200 font-semibold text-sm shadow-sm transition">
+                        📜 Read Full-Screen Letter
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- 5. OUR FRIENDSHIP SCRAPBOOK (6 FLIPPABLE ORNATE CARDS) -->
+        <section class="space-y-8">
+            <div class="text-center max-w-2xl mx-auto space-y-2">
+                <span class="text-xs font-bold uppercase tracking-[0.2em] text-purple-600">✦ Our Story &amp; Inside Jokes ✦</span>
+                <h2 class="calligraphy-bold text-4xl sm:text-6xl text-purple-900">Why You're My Soultwin</h2>
+                <p class="text-sm sm:text-base text-stone-600">
+                    Tap any ornate card to flip it over and read our story, or click ✏️ to customize any card.
+                </p>
+            </div>
+
+            <!-- 6-Card Flip Grid -->
+            <div id="memory-cards-grid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-7">
+                <!-- Dynamically populated with the 6 custom Ami & Sree cards -->
+            </div>
+
+            <div class="text-center pt-2">
+                <button onclick="openAddCardModal()" class="inline-flex items-center gap-2 px-5 py-2.5 rounded-full bg-white hover:bg-purple-50 text-purple-800 border-2 border-purple-200 font-semibold text-sm shadow-sm transition active:scale-95">
+                    <span>➕</span>
+                    <span>Add Another Memory Card</span>
+                </button>
+            </div>
+        </section>
+
+        <!-- 6. ORNATE NAMSEOK & SOULTWIN PHOTO GALLERY (ALL 9 UPLOADED PHOTOS) -->
+        <section class="space-y-8">
+            <div class="text-center max-w-2xl mx-auto space-y-2">
+                <span class="text-xs font-bold uppercase tracking-[0.2em] text-amber-700">✦ 🐨💜🐿️ Gallery ✦</span>
+                <h2 class="calligraphy-bold text-4xl sm:text-6xl text-purple-900">Our Favorite Moments &amp; Vibes</h2>
+                <p class="text-sm sm:text-base text-stone-600">
+                    Framed in gold &amp; lavender just for you! You can also click <strong>"Swap Photo"</strong> on any frame to add selfies of us from your phone gallery.
+                </p>
+            </div>
+
+            <!-- 9-Photo Ornate Grid -->
+            <div id="photo-gallery-grid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Populated dynamically with all 9 uploaded photos -->
+            </div>
+        </section>
+
+        <!-- 7. PROMISE BANNER -->
+        <section class="ornate-box rounded-[2rem] p-8 sm:p-12 text-center max-w-4xl mx-auto">
+            <div class="relative z-10 space-y-4">
+                <span class="text-3xl">🧿💜🍀🩷🫂</span>
+                <h2 class="calligraphy-bold text-4xl sm:text-6xl text-purple-900">
+                    "Lets face together and let never give up on eo"
+                </h2>
+                <p class="font-editorial text-lg sm:text-2xl text-stone-700 italic max-w-2xl mx-auto leading-relaxed">
+                    "We got connected in the span of such a short time and I don't measure love with time! You are my best friend and will always be 😘😘😘💜💜💜 We will create chaos together forever!"
+                </p>
+                <div class="pt-2">
+                    <span class="calligraphy-bold text-3xl sm:text-4xl text-amber-700">— Forever your Sree💃🩷</span>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="relative z-10 border-t-2 border-purple-200/80 bg-white/75 backdrop-blur-md py-8 px-4 text-center space-y-3">
+        <p class="calligraphy-bold text-3xl sm:text-4xl text-purple-900">
+            Happiest Birthday, <span id="footer-friend-name">AMI✨💜</span> — Borahae Forever 🌙
+        </p>
+        <div class="flex flex-wrap justify-center gap-3 text-xs font-semibold text-stone-500">
+            <button onclick="openCustomizeModal()" class="hover:text-purple-700 underline">Customize Letter &amp; Names</button>
+            <span>•</span>
+            <button onclick="copyShareableText()" class="hover:text-purple-700 underline">Copy Full Birthday Wish</button>
+            <span>•</span>
+            <button onclick="resetToDefaults()" class="hover:text-purple-700 underline">Restore Original Template</button>
+        </div>
+    </footer>
+
+    <!-- Floating Bottom-Right Mini Music Controller -->
+    <div class="fixed bottom-4 left-4 z-40">
+        <button onclick="toggleFriendsMusicBox()" class="px-4 py-2.5 rounded-full bg-white/90 backdrop-blur-md border-2 border-purple-300 shadow-lg flex items-center gap-2 text-xs sm:text-sm font-bold text-purple-900 hover:bg-purple-50 transition">
+            <span id="floating-music-dot" class="w-2.5 h-2.5 rounded-full bg-purple-400"></span>
+            <span id="floating-music-text">BTS - Friends 🎵</span>
+        </button>
+    </div>
+
+    <!-- Toast Notification Banner -->
+    <div id="toast-notification" class="fixed bottom-5 right-5 z-50 transform translate-y-24 opacity-0 transition-all duration-300 bg-purple-950 text-white px-5 py-3 rounded-2xl shadow-xl border border-purple-400 flex items-center gap-2.5 text-sm font-semibold pointer-events-none">
+        <span id="toast-icon">💜</span>
+        <span id="toast-message">Saved!</span>
+    </div>
+
+    <!-- Hidden File Input for Local Photo Swapping -->
+    <input type="file" id="photo-upload-input" accept="image/*" class="hidden" onchange="handlePhotoFileSelected(event)" />
+
+    <!-- MODAL 1: PERSONALIZE BIRTHDAY CARD -->
+    <div id="customize-modal" class="fixed inset-0 z-50 hidden items-center justify-center bg-purple-950/50 backdrop-blur-sm p-4">
+        <div class="bg-white rounded-3xl max-w-lg w-full p-6 sm:p-8 shadow-2xl border-2 border-purple-200 space-y-5 max-h-[90vh] overflow-y-auto">
+            <div class="flex items-center justify-between border-b border-purple-100 pb-3">
+                <h3 class="calligraphy-bold text-3xl text-purple-900">Customize Birthday Card ✨</h3>
+                <button onclick="closeCustomizeModal()" class="p-2 rounded-full hover:bg-purple-50 text-stone-500">✕</button>
+            </div>
+
+            <form onsubmit="saveCustomization(event)" class="space-y-4">
+                <div>
+                    <label class="block text-xs font-bold uppercase tracking-wider text-purple-800 mb-1">Friend's Name</label>
+                    <input type="text" id="input-friend-name" required maxlength="40" class="w-full px-4 py-2.5 rounded-xl border border-purple-200 focus:border-purple-500 outline-none text-stone-800" />
+                </div>
+
+                <div>
+                    <label class="block text-xs font-bold uppercase tracking-wider text-purple-800 mb-1">Hero Quote</label>
+                    <textarea id="input-hero-subtitle" rows="2" maxlength="260" class="w-full px-4 py-2.5 rounded-xl border border-purple-200 focus:border-purple-500 outline-none text-stone-800 text-sm"></textarea>
+                </div>
+
+                <div>
+                    <label class="block text-xs font-bold uppercase tracking-wider text-purple-800 mb-1">Heartfelt Envelope Letter</label>
+                    <textarea id="input-custom-letter" rows="6" maxlength="2500" class="w-full px-4 py-2.5 rounded-xl border border-purple-200 focus:border-purple-500 outline-none text-stone-800 text-sm"></textarea>
+                </div>
+
+                <div>
+                    <label class="block text-xs font-bold uppercase tracking-wider text-purple-800 mb-1">Signed By</label>
+                    <input type="text" id="input-sender-name" required maxlength="40" class="w-full px-4 py-2.5 rounded-xl border border-purple-200 focus:border-purple-500 outline-none text-stone-800" />
+                </div>
+
+                <div class="flex items-center justify-end gap-3 pt-3 border-t border-purple-100">
+                    <button type="button" onclick="closeCustomizeModal()" class="px-4 py-2 rounded-full text-stone-600 hover:bg-stone-100 font-semibold text-sm">Cancel</button>
+                    <button type="submit" class="px-6 py-2.5 rounded-full bg-gradient-to-r from-purple-600 to-fuchsia-600 text-white font-semibold text-sm shadow-md">Save Changes 💜</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- MODAL 2: EDIT OR ADD SCRAPBOOK CARD -->
+    <div id="card-editor-modal" class="fixed inset-0 z-50 hidden items-center justify-center bg-purple-950/50 backdrop-blur-sm p-4">
+        <div class="bg-white rounded-3xl max-w-md w-full p-6 sm:p-7 shadow-2xl border-2 border-purple-200 space-y-5">
+            <div class="flex items-center justify-between border-b border-purple-100 pb-3">
+                <h3 id="card-modal-title" class="calligraphy-bold text-3xl text-purple-900">Edit Memory Card</h3>
+                <button onclick="closeCardEditorModal()" class="p-2 rounded-full hover:bg-purple-50 text-stone-500">✕</button>
+            </div>
+
+            <form onsubmit="saveMemoryCard(event)" class="space-y-4">
+                <input type="hidden" id="edit-card-index" value="-1" />
+                <div class="grid grid-cols-4 gap-3">
+                    <div class="col-span-1">
+                        <label class="block text-xs font-bold uppercase tracking-wider text-purple-800 mb-1">Emoji</label>
+                        <input type="text" id="input-card-emoji" required maxlength="6" value="💜" class="w-full px-3 py-2.5 rounded-xl border border-purple-200 text-center text-xl outline-none" />
+                    </div>
+                    <div class="col-span-3">
+                        <label class="block text-xs font-bold uppercase tracking-wider text-purple-800 mb-1">Card Title</label>
+                        <input type="text" id="input-card-title" required maxlength="50" class="w-full px-4 py-2.5 rounded-xl border border-purple-200 outline-none text-stone-800" />
+                    </div>
+                </div>
+
+                <div>
+                    <label class="block text-xs font-bold uppercase tracking-wider text-purple-800 mb-1">Inside Note / Memory</label>
+                    <textarea id="input-card-message" required rows="4" maxlength="400" class="w-full px-4 py-2.5 rounded-xl border border-purple-200 outline-none text-stone-800 text-sm"></textarea>
+                </div>
+
+                <div class="flex items-center justify-between pt-3 border-t border-purple-100">
+                    <button type="button" id="delete-card-btn" onclick="deleteCurrentCard()" class="px-3.5 py-2 rounded-full text-rose-600 hover:bg-rose-50 text-xs font-bold">🗑️ Delete</button>
+                    <div class="flex items-center gap-2 ml-auto">
+                        <button type="button" onclick="closeCardEditorModal()" class="px-4 py-2 rounded-full text-stone-600 hover:bg-stone-100 text-sm font-semibold">Cancel</button>
+                        <button type="submit" class="px-5 py-2 rounded-full bg-purple-600 hover:bg-purple-700 text-white text-sm font-semibold shadow-sm">Save Note</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- MODAL 3: FULL SCREEN ORNATE LETTER READER -->
+    <div id="full-letter-modal" class="fixed inset-0 z-50 hidden items-center justify-center bg-purple-950/60 backdrop-blur-sm p-4">
+        <div class="ornate-box bg-creamPearl rounded-[2rem] max-w-2xl w-full p-7 sm:p-11 shadow-2xl space-y-6 relative max-h-[90vh] overflow-y-auto">
+            <button onclick="closeReadFullLetterModal()" class="absolute top-5 right-5 z-20 w-10 h-10 rounded-full bg-purple-100 hover:bg-purple-200 text-purple-900 flex items-center justify-center font-bold">✕</button>
+            <div class="relative z-10 space-y-1 border-b border-amber-300/70 pb-4">
+                <span class="text-xs uppercase tracking-[0.2em] text-amber-700 font-bold">✦ Birthday Letter ✦</span>
+                <h3 class="calligraphy-bold text-4xl sm:text-5xl text-purple-900">
+                    Dearest <span id="modal-letter-friend">AMI✨💜</span>,
+                </h3>
+            </div>
+            <p id="modal-letter-body" class="relative z-10 text-stone-700 text-base sm:text-lg leading-relaxed whitespace-pre-line font-medium"></p>
+            <div class="relative z-10 pt-4 border-t border-amber-300/70 text-right">
+                <p class="text-xs uppercase tracking-widest text-amber-700 font-bold">With all my love forever,</p>
+                <p id="modal-letter-sender" class="calligraphy-bold text-4xl text-fuchsia-700">Sree💃🩷</p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        /* ==========================================================================
+           EMBEDDED UPLOADED PHOTOS (ALL 9 NAMSEOK / SOULTWIN PHOTOS)
+           ========================================================================== */
+        const INITIAL_PHOTOS = [
+            {
+                url: "GEM_PHOTO_91772274-3F67-4F0A-89A8-D47A45D0B048_L0_001_recent_photo_5A63C888-709B-4A8E-83E5-565AB12F1002.jpg",
+                caption: "Singing our hearts out together 🎤💜",
+                tag: "Soultwins"
+            },
+            {
+                url: "GEM_PHOTO_E02B741B-5128-462F-A8B1-C86B0A5340CD_L0_001_recent_photo_A54B7CFF-8F7D-4A5F-9220-ECF79C2805E5.jpg",
+                caption: "Cheers to forever & endless chaos 🥂✨",
+                tag: "Celebration"
+            },
+            {
+                url: "GEM_PHOTO_0FFDEC45-1606-4B26-8100-AB4FEA2E0975_L0_001_recent_photo_2847D864-1A1B-47DC-8B5D-7009243DC284.jpg",
+                caption: "Pure smiles whenever we talk 😊💜",
+                tag: "Best Talks"
+            },
+            {
+                url: "GEM_PHOTO_B1BA955C-75D1-4AB1-9D06-367F54EB72FB_L0_001_recent_photo_665006C1-9C62-4E10-A078-0A3C7351DB52.jpg",
+                caption: "My clumsy joonie & sunshine vibe 💃🩷",
+                tag: "My Moon 🌙"
+            },
+            {
+                url: "GEM_PHOTO_AD14445B-3E85-4B66-A2A5-08C3C56CACBB_L0_001_recent_photo_E6DD9A55-6529-48EC-81DB-F11A725EDB71.jpg",
+                caption: "🐨💜🐿️ Destiny brought us together!",
+                tag: "Borahae"
+            },
+            {
+                url: "GEM_PHOTO_B0848EF8-C236-427D-A53E-4481EF184802_L0_001_recent_photo_B873CF4B-71C0-4D4E-BAF3-079F455F48AD.jpg",
+                caption: "Always matching energy & style 💙✨",
+                tag: "Partners in Crime"
+            },
+            {
+                url: "GEM_PHOTO_4C603721-D936-4648-A509-36E526886D18_L0_001_recent_photo_6E4C12E4-7CBE-475D-B087-686E3E8130B5.jpg",
+                caption: "Always having each other's back 🫂💜",
+                tag: "Safe Space"
+            },
+            {
+                url: "GEM_PHOTO_BDFB6377-A72A-46E4-A9DD-8EEA0561E80D_L0_001_recent_photo_84889E7F-F530-49C3-AA9D-195C37438D6F.jpg",
+                caption: "Cozy late-night talks & comfort 🌙🩷",
+                tag: "Forever"
+            },
+            {
+                url: "GEM_PHOTO_7C86D6AB-2433-4119-BC76-10FF4976A95D_L0_001_recent_photo_820AADE0-0072-473E-9AFC-3467F84258F3.jpg",
+                caption: "Looking at each other like we know everything 🎶💜",
+                tag: "Friends (친구)"
+            }
+        ];
+
+        /* ==========================================================================
+           STATE & CUSTOMIZED AMI + SREE DATA
+           ========================================================================== */
+        const DEFAULT_DATA = {
+            friendName: "AMI✨💜",
+            heroSubtitle: "My moon 🌙, my clumsy joonie 💃💜, and my forever soultwin—thank god He sent you here on this day for me. May this friendship last forever 🧿💜🩷",
+            customLetter: `HAPPIEST BIRTHDAY AMI ✨😘
+May your life filled with all happiness, joy and love! ❤️
+I thank god cause he sent you here on this day for me!
+My joonie 🫂🫂 i love you soooo much !
+I am grateful to find you 😘😘😘
+God bless you with all happiness and success!
+
+This year is best cause i found you and i never thought i would get close to a person again but guess what life comes with surprises and i am grateful for that! The person who never judges me, who doesn’t leave me alone when i am at my lowest 🫂🫂🫂 thank you for staying, i am blessed to get you in my life! ✨✨🤍🤍🤍
+
+I LOVE HOW YOU PATIENTLY LISTEN AND COMFORT ME! AND ADVICE ME TO WHAT TO DO! I LOVE YOU FOR CARING! ✨🩷
+The more i get to know you, the more i respect you and love you 🩷❣️
+You are the sweetest person ever and i like the honesty! 💛
+You are my moon 🌙
+You are my clumsy joonie 💃💜
+You are my best supporter 💘
+
+Friendship doesn’t end well for me ! But i want this friendship to last forever! It hurts to even think about ending! Lets hang on with eo forever!
+Lets face together and let never give up on eo 🫂🫂🫂🫂🫂🩷🩷🩷🩷🩷🩷🩷🩷🩷
+
+I wish you get whatever you want ! And enjoy the life to the fullest 🩷🩷🩷🩷
+May this lasts forever 🧿🧿🧿🧿😘😘😘😘😘🩷🩷🩷🩷🩷🩷`,
+            senderName: "Sree💃🩷",
+            cards: [
+                {
+                    emoji: "💜",
+                    title: "Taekook & That GC Destiny",
+                    message: "ITS CRAZY EVEN NOW HOW IT ALL STARTED AND NOW HERE WE ARE WITH EACHOTHER! TAEKOOK ARE THE BEST I FOUND YOU! I never joined GCs, but look what destiny held to meet my soultwin 😘 I'm so glad we shared IGs and started our best talks! 🫂🫂",
+                    gradient: "from-purple-50 via-fuchsia-50 to-pink-50"
+                },
+                {
+                    emoji: "🌙",
+                    title: "My Moon & Clumsy Joonie",
+                    message: "You are my moon 🌙 and my clumsy joonie 💃💜! The more I get to know you, the more I respect and love you 🩷❣️ You are the sweetest person ever and I adore your honesty! 💛",
+                    gradient: "from-amber-50 via-purple-50 to-pink-50"
+                },
+                {
+                    emoji: "🐶",
+                    title: "Cute Little Angry Puppy",
+                    message: "The way you ease the pain with little laughs while sharing pain together, while being a cute little angry puppy when you get annoyed and making life easier! Thank you for worrying about my stupid decisions 🩷",
+                    gradient: "from-pink-50 via-rose-50 to-purple-50"
+                },
+                {
+                    emoji: "🫂",
+                    title: "Thank You For Coming Back",
+                    message: "I still remember how I cried when you suddenly disappeared—I feared I might not see you again! Thank you for coming back 🩷🩷😘😘 Thank you for not leaving unsaid and for always being yourself. I am always here for you!",
+                    gradient: "from-purple-100/70 via-pink-50 to-amber-50"
+                },
+                {
+                    emoji: "💘",
+                    title: "My Patient Listener & Supporter",
+                    message: "I love how you patiently listen, comfort me, and advise me on what to do! You never judge me and never leave me alone at my lowest 🫂🫂🫂 You are my best supporter 💘",
+                    gradient: "from-fuchsia-50 via-purple-50 to-amber-50"
+                },
+                {
+                    emoji: "🧿",
+                    title: "Forever Chaos & Soultwins",
+                    message: "We got connected in such a short time and I don't measure love with time! Sorry if I ever hurt you unknowingly 😘💛 We will create chaos together forever! Ami, you are my forever friend 🫂💜🍀🍀🍀🧿🧿🧿",
+                    gradient: "from-amber-50 via-pink-50 to-purple-100/70"
+                }
+            ],
+            photos: INITIAL_PHOTOS
+        };
+
+        let appState = loadState();
+        let candlesBlown = false;
+        let isEnvelopeOpen = false;
+        let audioCtx = null;
+        let isFriendsPlaying = false;
+        let friendsLoopTimer = null;
+        let activePhotoSwapIndex = -1;
+
+        function loadState() {
+            try {
+                const saved = localStorage.getItem("ami_sree_borahae_bday_v2");
+                if (saved) {
+                    const parsed = JSON.parse(saved);
+                    return {
+                        ...DEFAULT_DATA,
+                        ...parsed,
+                        photos: parsed.photos && parsed.photos.length === 9 ? parsed.photos : INITIAL_PHOTOS
+                    };
+                }
+            } catch (e) {
+                console.warn("Could not read localStorage:", e);
+            }
+            return JSON.parse(JSON.stringify(DEFAULT_DATA));
+        }
+
+        function saveState() {
+            try {
+                localStorage.setItem("ami_sree_borahae_bday_v2", JSON.stringify(appState));
+            } catch (e) {
+                console.warn("Could not save to localStorage:", e);
+            }
+        }
+
+        /* ==========================================================================
+           RENDER ALL UI ELEMENTS
+           ========================================================================== */
+        function renderAll() {
+            document.getElementById("display-friend-name").textContent = appState.friendName;
+            document.getElementById("letter-friend-name").textContent = appState.friendName;
+            document.getElementById("footer-friend-name").textContent = appState.friendName;
+            document.getElementById("modal-letter-friend").textContent = appState.friendName;
+
+            document.getElementById("display-hero-subtitle").textContent = appState.heroSubtitle;
+            document.getElementById("display-custom-letter").textContent = appState.customLetter;
+            document.getElementById("modal-letter-body").textContent = appState.customLetter;
+
+            document.getElementById("display-sender-name").textContent = appState.senderName;
+            document.getElementById("modal-letter-sender").textContent = appState.senderName;
+            document.getElementById("hero-sender-badge").textContent = appState.senderName;
+
+            renderMemoryCards();
+            renderPhotoGallery();
+        }
+
+        function renderMemoryCards() {
+            const grid = document.getElementById("memory-cards-grid");
+            grid.innerHTML = "";
+
+            appState.cards.forEach((card, index) => {
+                const cardWrapper = document.createElement("div");
+                cardWrapper.className = "flip-card perspective-1000 h-64 cursor-pointer select-none group";
+                cardWrapper.setAttribute("role", "button");
+                cardWrapper.setAttribute("tabindex", "0");
+
+                cardWrapper.onclick = (e) => {
+                    if (e.target.closest(".edit-card-trigger")) return;
+                    cardWrapper.classList.toggle("flipped");
+                };
+
+                cardWrapper.onkeydown = (e) => {
+                    if (e.key === "Enter" || e.key === " ") {
+                        e.preventDefault();
+                        cardWrapper.classList.toggle("flipped");
+                    }
+                };
+
+                cardWrapper.innerHTML = `
+                    <div class="flip-card-inner rounded-3xl">
+                        <!-- ORNATE FRONT -->
+                        <div class="flip-card-front ornate-box bg-gradient-to-br ${card.gradient || 'from-purple-50 to-pink-50'} p-6 flex flex-col items-center justify-center text-center relative">
+                            <button type="button" onclick="openEditCardModal(${index})" title="Edit this card" class="edit-card-trigger absolute top-3.5 right-3.5 z-20 w-8 h-8 rounded-full bg-white/90 hover:bg-purple-100 text-purple-700 flex items-center justify-center shadow-sm transition">
+                                ✏️
+                            </button>
+                            <span class="text-4xl sm:text-5xl mb-2 transform group-hover:scale-110 transition-transform relative z-10">${escapeHtml(card.emoji)}</span>
+                            <h3 class="calligraphy-bold text-3xl sm:text-4xl text-purple-900 leading-tight relative z-10 px-2">${escapeHtml(card.title)}</h3>
+                            <span class="mt-3 text-xs font-bold text-purple-700 bg-white/80 border border-purple-200 px-3.5 py-1 rounded-full relative z-10">Tap to open memory ↻</span>
+                        </div>
+
+                        <!-- ORNATE BACK -->
+                        <div class="flip-card-back ornate-box bg-creamPearl p-6 flex flex-col items-center justify-center text-center relative">
+                            <button type="button" onclick="openEditCardModal(${index})" title="Edit this card" class="edit-card-trigger absolute top-3.5 right-3.5 z-20 w-8 h-8 rounded-full bg-purple-50 hover:bg-purple-100 text-purple-700 flex items-center justify-center transition">
+                                ✏️
+                            </button>
+                            <span class="text-2xl mb-1.5 relative z-10">${escapeHtml(card.emoji)}</span>
+                            <p class="text-stone-700 text-xs sm:text-sm leading-relaxed font-semibold relative z-10 overflow-y-auto max-h-40 px-1">
+                                "${escapeHtml(card.message)}"
+                            </p>
+                            <span class="mt-2.5 text-[11px] font-bold uppercase tracking-widest text-amber-700 relative z-10">✦ Tap to flip back ✦</span>
+                        </div>
+                    </div>
+                `;
+                grid.appendChild(cardWrapper);
+            });
+        }
+
+        function renderPhotoGallery() {
+            const gallery = document.getElementById("photo-gallery-grid");
+            gallery.innerHTML = "";
+
+            appState.photos.forEach((photo, idx) => {
+                const frame = document.createElement("div");
+                frame.className = "ornate-photo-frame rounded-3xl p-3.5 sm:p-4 flex flex-col justify-between group";
+
+                frame.innerHTML = `
+                    <!-- Corner Starlight Ornaments -->
+                    <span class="absolute -top-2.5 -left-2.5 z-20 text-amber-500 text-lg drop-shadow">✦</span>
+                    <span class="absolute -top-2.5 -right-2.5 z-20 text-purple-600 text-lg drop-shadow">💜</span>
+                    <span class="absolute -bottom-2.5 -left-2.5 z-20 text-pink-500 text-lg drop-shadow">🩷</span>
+                    <span class="absolute -bottom-2.5 -right-2.5 z-20 text-amber-500 text-lg drop-shadow">✦</span>
+
+                    <div class="photo-shimmer relative w-full aspect-[4/5] rounded-2xl overflow-hidden bg-purple-100 border border-purple-200">
+                        <img 
+                            src="${escapeHtml(photo.url)}" 
+                            alt="${escapeHtml(photo.caption)}"
+                            onerror="this.onerror=null; this.src='https://placehold.co/400x500/F3E8FF/6B46C1?text=AMI+%E2%9C%A8%F0%9F%92%9C+%26+Sree+%F0%9F%92%83%F0%9F%A9%B7';"
+                            class="w-full h-full object-cover object-center transition-transform duration-500 group-hover:scale-105"
+                        />
+                        <div class="absolute top-2.5 left-2.5 px-2.5 py-0.5 rounded-full bg-white/85 backdrop-blur-sm border border-purple-200 text-[11px] font-bold text-purple-900">
+                            ${escapeHtml(photo.tag || 'Soultwins')}
+                        </div>
+                        <button type="button" onclick="triggerPhotoSwap(${idx})" class="absolute bottom-2.5 right-2.5 px-3 py-1 rounded-full bg-purple-900/80 hover:bg-purple-800 text-white text-[11px] font-semibold backdrop-blur-sm opacity-90 sm:opacity-0 group-hover:opacity-100 transition flex items-center gap-1 shadow">
+                            <span>📷</span>
+                            <span>Swap Photo</span>
+                        </button>
+                    </div>
+
+                    <div class="pt-3.5 pb-1 px-1 text-center">
+                        <p class="calligraphy-bold text-2xl sm:text-3xl text-purple-950 leading-snug">
+                            ${escapeHtml(photo.caption)}
+                        </p>
+                    </div>
+                `;
+                gallery.appendChild(frame);
+            });
+        }
+
+        function escapeHtml(str) {
+            const div = document.createElement("div");
+            div.textContent = str;
+            return div.innerHTML;
+        }
+
+        /* ==========================================================================
+           LOCAL PHOTO SWAPPER (SO USER CAN ALSO ADD SELFIES FROM PHONE)
+           ========================================================================== */
+        function triggerPhotoSwap(index) {
+            activePhotoSwapIndex = index;
+            document.getElementById("photo-upload-input").click();
+        }
+
+        function handlePhotoFileSelected(event) {
+            const file = event.target.files && event.target.files[0];
+            if (!file || activePhotoSwapIndex < 0) return;
+
+            const reader = new FileReader();
+            reader.onload = function(e) {
+                appState.photos[activePhotoSwapIndex].url = e.target.result;
+                saveState();
+                renderPhotoGallery();
+                showToast("Photo added to ornate frame! 💜", "📷");
+            };
+            reader.readAsDataURL(file);
+            event.target.value = "";
+        }
+
+        /* ==========================================================================
+           FLOATING CELESTIAL MOONS, PURPLE/PINK HEARTS & SPARKLES
+           ========================================================================== */
+        function createCelestialFloaters() {
+            const container = document.getElementById("celestial-container");
+            const symbols = ["🌙", "💜", "🩷", "✨", "🧿", "🦋", "🌸"];
+            const count = 18;
+
+            for (let i = 0; i < count; i++) {
+                const item = document.createElement("div");
+                item.className = "celestial-floater select-none";
+                item.textContent = symbols[i % symbols.length];
+
+                const left = Math.random() * 96;
+                const duration = 15 + Math.random() * 14;
+                const delay = Math.random() * -22;
+                const size = 18 + Math.random() * 16;
+
+                item.style.left = `${left}%`;
+                item.style.fontSize = `${size}px`;
+                item.style.animationDuration = `${duration}s`;
+                item.style.animationDelay = `${delay}s`;
+
+                container.appendChild(item);
+            }
+        }
+
+        /* ==========================================================================
+           BORAHAE CONFETTI BURST ENGINE
+           ========================================================================== */
+        const confettiCanvas = document.getElementById("confetti-canvas");
+        const ctx = confettiCanvas.getContext("2d");
+        let confettiParticles = [];
+        let confettiAnimId = null;
+
+        function resizeConfettiCanvas() {
+            confettiCanvas.width = window.innerWidth;
+            confettiCanvas.height = window.innerHeight;
+        }
+        window.addEventListener("resize", resizeConfettiCanvas);
+        resizeConfettiCanvas();
+
+        function triggerConfettiBurst(count = 120) {
+            const colors = ["#9333EA", "#C084FC", "#EC4899", "#F472B6", "#F59E0B", "#FDE047", "#A855F7"];
+            for (let i = 0; i < count; i++) {
+                confettiParticles.push({
+                    x: confettiCanvas.width * (0.2 + Math.random() * 0.6),
+                    y: confettiCanvas.height * 0.45,
+                    vx: (Math.random() - 0.5) * 16,
+                    vy: -6 - Math.random() * 12,
+                    size: 6 + Math.random() * 7,
+                    color: colors[Math.floor(Math.random() * colors.length)],
+                    rotation: Math.random() * 360,
+                    rotationSpeed: (Math.random() - 0.5) * 12,
+                    shape: Math.random() > 0.4 ? "rect" : "circle",
+                    gravity: 0.27 + Math.random() * 0.12,
+                    drag: 0.985,
+                    alpha: 1
+                });
+            }
+            if (!confettiAnimId) {
+                animateConfetti();
+            }
+        }
+
+        function animateConfetti() {
+            ctx.clearRect(0, 0, confettiCanvas.width, confettiCanvas.height);
+
+            confettiParticles.forEach((p) => {
+                p.vx *= p.drag;
+                p.vy += p.gravity;
+                p.x += p.vx;
+                p.y += p.vy;
+                p.rotation += p.rotationSpeed;
+
+                if (p.y > confettiCanvas.height + 20) {
+                    p.alpha -= 0.05;
+                }
+
+                ctx.save();
+                ctx.globalAlpha = Math.max(0, p.alpha);
+                ctx.translate(p.x, p.y);
+                ctx.rotate((p.rotation * Math.PI) / 180);
+                ctx.fillStyle = p.color;
+
+                if (p.shape === "rect") {
+                    ctx.fillRect(-p.size / 2, -p.size / 4, p.size, p.size * 0.6);
+                } else {
+                    ctx.beginPath();
+                    ctx.arc(0, 0, p.size / 2, 0, Math.PI * 2);
+                    ctx.fill();
+                }
+                ctx.restore();
+            });
+
+            confettiParticles = confettiParticles.filter(p => p.alpha > 0 && p.y < confettiCanvas.height + 60);
+
+            if (confettiParticles.length > 0) {
+                confettiAnimId = requestAnimationFrame(animateConfetti);
+            } else {
+                confettiAnimId = null;
+                ctx.clearRect(0, 0, confettiCanvas.width, confettiCanvas.height);
+            }
+        }
+
+        /* ==========================================================================
+           WEB AUDIO: BTS "FRIENDS" (친구) MUSIC BOX & HAPPY BIRTHDAY CHIMES
+           ========================================================================== */
+        function ensureAudioContext() {
+            if (!audioCtx) {
+                const AudioContextClass = window.AudioContext || window.webkitAudioContext;
+                audioCtx = new AudioContextClass();
+            }
+            if (audioCtx.state === "suspended") {
+                audioCtx.resume();
+            }
+        }
+
+        function toggleFriendsMusicBox() {
+            if (isFriendsPlaying) {
+                stopFriendsMusicBox();
+            } else {
+                startFriendsMusicBox();
+            }
+        }
+
+        function startFriendsMusicBox() {
+            ensureAudioContext();
+            isFriendsPlaying = true;
+            updateMusicButtonsUI(true);
+            playFriendsPhrase();
+            friendsLoopTimer = setInterval(() => {
+                if (isFriendsPlaying) playFriendsPhrase();
+            }, 6800);
+            showToast('Playing BTS - "Friends" Music Box 🐨💜🐿️', "🎵");
+        }
+
+        function stopFriendsMusicBox() {
+            isFriendsPlaying = false;
+            clearInterval(friendsLoopTimer);
+            updateMusicButtonsUI(false);
+        }
+
+        function updateMusicButtonsUI(playing) {
+            const disc = document.getElementById("vinyl-disc");
+            const topIcon = document.getElementById("top-music-icon");
+            const topLabel = document.getElementById("top-music-label");
+            const cardIcon = document.getElementById("card-music-icon");
+            const cardText = document.getElementById("card-music-text");
+            const dot = document.getElementById("floating-music-dot");
+
+            if (playing) {
+                disc.classList.add("vinyl-spinning");
+                topIcon.textContent = "⏸️";
+                topLabel.textContent = 'Pause "Friends"';
+                cardIcon.textContent = "⏸️";
+                cardText.textContent = "Pause Music Box";
+                dot.classList.remove("bg-purple-400");
+                dot.classList.add("bg-fuchsia-500", "animate-ping");
+            } else {
+                disc.classList.remove("vinyl-spinning");
+                topIcon.textContent = "🎵";
+                topLabel.textContent = 'Play "Friends"';
+                cardIcon.textContent = "▶️";
+                cardText.textContent = "Play Music Box Melody";
+                dot.classList.remove("bg-fuchsia-500", "animate-ping");
+                dot.classList.add("bg-purple-400");
+            }
+        }
+
+        function playFriendsPhrase() {
+            if (!audioCtx) return;
+            // Dreamy music-box arpeggio + chorus motif inspired by BTS "Friends" ("You are my soulmate...")
+            const notes = [
+                // Gentle dreamy intro arpeggio
+                { freq: 329.63, dur: 0.45, delay: 0.0 },  // E4
+                { freq: 415.30, dur: 0.45, delay: 0.32 }, // G#4
+                { freq: 493.88, dur: 0.45, delay: 0.64 }, // B4
+                { freq: 659.25, dur: 0.70, delay: 0.96 }, // E5
+
+                // "You are my soulmate..." melodic contour
+                { freq: 659.25, dur: 0.35, delay: 1.85 }, // E5
+                { freq: 587.33, dur: 0.35, delay: 2.22 }, // D5
+                { freq: 554.37, dur: 0.40, delay: 2.59 }, // C#5
+                { freq: 493.88, dur: 0.55, delay: 3.02 }, // B4
+                { freq: 440.00, dur: 0.40, delay: 3.65 }, // A4
+                { freq: 493.88, dur: 0.45, delay: 4.08 }, // B4
+                { freq: 554.37, dur: 0.65, delay: 4.56 }, // C#5
+                { freq: 493.88, dur: 0.95, delay: 5.25 }  // B4
+            ];
+
+            const now = audioCtx.currentTime;
+            notes.forEach(note => {
+                const osc = audioCtx.createOscillator();
+                const gain = audioCtx.createGain();
+                osc.type = "sine";
+                osc.frequency.setValueAtTime(note.freq, now + note.delay);
+
+                gain.gain.setValueAtTime(0.001, now + note.delay);
+                gain.gain.exponentialRampToValueAtTime(0.16, now + note.delay + 0.05);
+                gain.gain.exponentialRampToValueAtTime(0.001, now + note.delay + note.dur);
+
+                osc.connect(gain);
+                gain.connect(audioCtx.destination);
+                osc.start(now + note.delay);
+                osc.stop(now + note.delay + note.dur + 0.05);
+            });
+        }
+
+        function blowOutCandles() {
+            if (candlesBlown) {
+                triggerConfettiBurst(70);
+                return;
+            }
+            candlesBlown = true;
+
+            document.querySelectorAll(".candle-flame").forEach(flame => flame.classList.add("blown-out"));
+            document.querySelectorAll(".smoke-puff").forEach(smoke => {
+                smoke.classList.remove("active");
+                void smoke.offsetWidth;
+                smoke.classList.add("active");
+            });
+
+            document.getElementById("cake-instruction").innerHTML =
+                `🎉 <strong class="text-purple-800">Happiest Birthday, ${escapeHtml(appState.friendName)}!</strong> May this lasts forever 🧿💜🩷`;
+            document.getElementById("wish-granted-banner").classList.remove("hidden");
+            document.getElementById("blow-btn").classList.add("hidden");
+            document.getElementById("relight-btn").classList.remove("hidden");
+
+            triggerConfettiBurst(160);
+            playHappyBirthdayMelody();
+        }
+
+        function relightCandles() {
+            candlesBlown = false;
+            document.querySelectorAll(".candle-flame").forEach(flame => flame.classList.remove("blown-out"));
+            document.querySelectorAll(".smoke-puff").forEach(smoke => smoke.classList.remove("active"));
+
+            document.getElementById("cake-instruction").innerHTML =
+                `Close your eyes, make your biggest wish, and <strong class="text-purple-700">tap the candles (or the button below)</strong> to blow them out!`;
+            document.getElementById("wish-granted-banner").classList.add("hidden");
+            document.getElementById("blow-btn").classList.remove("hidden");
+            document.getElementById("relight-btn").classList.add("hidden");
+        }
+
+        function playHappyBirthdayMelody() {
+            try {
+                ensureAudioContext();
+                const melody = [
+                    { freq: 261.63, dur: 0.28, delay: 0.0 },
+                    { freq: 261.63, dur: 0.18, delay: 0.30 },
+                    { freq: 293.66, dur: 0.45, delay: 0.52 },
+                    { freq: 261.63, dur: 0.45, delay: 1.00 },
+                    { freq: 349.23, dur: 0.45, delay: 1.48 },
+                    { freq: 329.63, dur: 0.80, delay: 1.96 },
+
+                    { freq: 261.63, dur: 0.28, delay: 2.90 },
+                    { freq: 261.63, dur: 0.18, delay: 3.20 },
+                    { freq: 293.66, dur: 0.45, delay: 3.42 },
+                    { freq: 261.63, dur: 0.45, delay: 3.90 },
+                    { freq: 392.00, dur: 0.45, delay: 4.38 },
+                    { freq: 349.23, dur: 0.85, delay: 4.86 }
+                ];
+
+                const now = audioCtx.currentTime;
+                melody.forEach(note => {
+                    const osc = audioCtx.createOscillator();
+                    const noteGain = audioCtx.createGain();
+
+                    osc.type = "triangle";
+                    osc.frequency.setValueAtTime(note.freq, now + note.delay);
+
+                    noteGain.gain.setValueAtTime(0.001, now + note.delay);
+                    noteGain.gain.exponentialRampToValueAtTime(0.22, now + note.delay + 0.04);
+                    noteGain.gain.exponentialRampToValueAtTime(0.001, now + note.delay + note.dur);
+
+                    osc.connect(noteGain);
+                    noteGain.connect(audioCtx.destination);
+
+                    osc.start(now + note.delay);
+                    osc.stop(now + note.delay + note.dur + 0.05);
+                });
+            } catch (e) {
+                console.warn("Audio playback blocked:", e);
+            }
+        }
+
+        /* ==========================================================================
+           ENVELOPE & MODALS
+           ========================================================================== */
+        function toggleEnvelope() {
+            const wrapper = document.getElementById("envelope-wrapper");
+            const btn = document.getElementById("envelope-toggle-btn");
+            isEnvelopeOpen = !isEnvelopeOpen;
+
+            if (isEnvelopeOpen) {
+                wrapper.classList.add("open");
+                btn.textContent = "📩 Close Envelope";
+                triggerConfettiBurst(65);
+            } else {
+                wrapper.classList.remove("open");
+                btn.textContent = "✉️ Open Sealed Envelope";
+            }
+        }
+
+        function openReadFullLetterModal() {
+            const modal = document.getElementById("full-letter-modal");
+            modal.classList.remove("hidden");
+            modal.classList.add("flex");
+        }
+
+        function closeReadFullLetterModal() {
+            const modal = document.getElementById("full-letter-modal");
+            modal.classList.add("hidden");
+            modal.classList.remove("flex");
+        }
+
+        function openCustomizeModal() {
+            document.getElementById("input-friend-name").value = appState.friendName;
+            document.getElementById("input-hero-subtitle").value = appState.heroSubtitle;
+            document.getElementById("input-custom-letter").value = appState.customLetter;
+            document.getElementById("input-sender-name").value = appState.senderName;
+
+            const modal = document.getElementById("customize-modal");
+            modal.classList.remove("hidden");
+            modal.classList.add("flex");
+        }
+
+        function closeCustomizeModal() {
+            const modal = document.getElementById("customize-modal");
+            modal.classList.add("hidden");
+            modal.classList.remove("flex");
+        }
+
+        function saveCustomization(event) {
+            event.preventDefault();
+            appState.friendName = document.getElementById("input-friend-name").value.trim() || "AMI✨💜";
+            appState.heroSubtitle = document.getElementById("input-hero-subtitle").value.trim() || DEFAULT_DATA.heroSubtitle;
+            appState.customLetter = document.getElementById("input-custom-letter").value.trim() || DEFAULT_DATA.customLetter;
+            appState.senderName = document.getElementById("input-sender-name").value.trim() || "Sree💃🩷";
+
+            saveState();
+            renderAll();
+            closeCustomizeModal();
+            triggerConfettiBurst(75);
+            showToast("Updated for AMI✨💜!", "💜");
+        }
+
+        function openEditCardModal(index) {
+            const card = appState.cards[index];
+            if (!card) return;
+
+            document.getElementById("card-modal-title").textContent = "Edit Memory Card";
+            document.getElementById("edit-card-index").value = index;
+            document.getElementById("input-card-emoji").value = card.emoji;
+            document.getElementById("input-card-title").value = card.title;
+            document.getElementById("input-card-message").value = card.message;
+            document.getElementById("delete-card-btn").classList.remove("hidden");
+
+            const modal = document.getElementById("card-editor-modal");
+            modal.classList.remove("hidden");
+            modal.classList.add("flex");
+        }
+
+        function openAddCardModal() {
+            document.getElementById("card-modal-title").textContent = "Add New Memory";
+            document.getElementById("edit-card-index").value = "-1";
+            document.getElementById("input-card-emoji").value = "💜";
+            document.getElementById("input-card-title").value = "";
+            document.getElementById("input-card-message").value = "";
+            document.getElementById("delete-card-btn").classList.add("hidden");
+
+            const modal = document.getElementById("card-editor-modal");
+            modal.classList.remove("hidden");
+            modal.classList.add("flex");
+        }
+
+        function closeCardEditorModal() {
+            const modal = document.getElementById("card-editor-modal");
+            modal.classList.add("hidden");
+            modal.classList.remove("flex");
+        }
+
+        function saveMemoryCard(event) {
+            event.preventDefault();
+            const index = parseInt(document.getElementById("edit-card-index").value, 10);
+            const emoji = document.getElementById("input-card-emoji").value.trim() || "💜";
+            const title = document.getElementById("input-card-title").value.trim();
+            const message = document.getElementById("input-card-message").value.trim();
+
+            if (!title || !message) return;
+
+            if (index >= 0 && appState.cards[index]) {
+                appState.cards[index] = { ...appState.cards[index], emoji, title, message };
+                showToast("Memory card updated!", "✨");
+            } else {
+                appState.cards.push({
+                    emoji,
+                    title,
+                    message,
+                    gradient: "from-purple-50 via-pink-50 to-amber-50"
+                });
+                showToast("New memory added!", "💜");
+            }
+
+            saveState();
+            renderMemoryCards();
+            closeCardEditorModal();
+        }
+
+        function deleteCurrentCard() {
+            const index = parseInt(document.getElementById("edit-card-index").value, 10);
+            if (index >= 0 && appState.cards.length > 1) {
+                appState.cards.splice(index, 1);
+                saveState();
+                renderMemoryCards();
+                closeCardEditorModal();
+                showToast("Memory removed.", "🗑️");
+            }
+        }
+
+        function copyShareableText() {
+            const shareText = `🎂 Happiest Birthday, ${appState.friendName}! 🌙✨\n\n${appState.customLetter}\n\n— ${appState.senderName}`;
+            const tempInput = document.createElement("textarea");
+            tempInput.value = shareText;
+            document.body.appendChild(tempInput);
+            tempInput.select();
+            try {
+                document.execCommand("copy");
+                showToast("Birthday letter copied to clipboard!", "📋");
+            } catch (e) {
+                showToast("Could not copy text.", "⚠️");
+            }
+            document.body.removeChild(tempInput);
+        }
+
+        function resetToDefaults() {
+            appState = JSON.parse(JSON.stringify(DEFAULT_DATA));
+            saveState();
+            renderAll();
+            showToast("Restored Ami & Sree's original page!", "💜");
+        }
+
+        function showToast(message, icon = "💜") {
+            const toast = document.getElementById("toast-notification");
+            document.getElementById("toast-message").textContent = message;
+            document.getElementById("toast-icon").textContent = icon;
+
+            toast.classList.remove("translate-y-24", "opacity-0");
+            clearTimeout(window._toastTimer);
+            window._toastTimer = setTimeout(() => {
+                toast.classList.add("translate-y-24", "opacity-0");
+            }, 3200);
+        }
+
+        /* ==========================================================================
+           INITIALIZE ON LOAD
+           ========================================================================== */
+        window.addEventListener("load", () => {
+            renderAll();
+            createCelestialFloaters();
+            setTimeout(() => triggerConfettiBurst(95), 450);
+        });
+    </script>
+</body>
+</html>
